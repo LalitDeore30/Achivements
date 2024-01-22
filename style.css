@@ -110,8 +110,8 @@ body{
 }
 .dotted-line {
     border-left: 3px dotted #000; 
-            height: 150vh; 
-            margin: 0 20px; /
+    height: 150vh; 
+    margin: 0 20px; 
 }
 @keyframes floatImage{
     0%{
