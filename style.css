@@ -24,7 +24,7 @@ body{
     justify-content:space-between;
     align-items: center;
     padding: 70px 10% 0;
-    background-color: #0E2954;
+    background-color: #05609d;
     margin-bottom: 5rem;
 }
 .home-content{
@@ -82,8 +82,15 @@ body{
     margin:0 0 1.5rem 2rem;
 }
 
+.achivements-left{
+    animation: slideRight 2s ease forwards;
+    animation-delay: 2s;
+}
+
 .achivements-right{
     margin-top: 10rem;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2s;
 }
 
 .achievements-content .content{
@@ -93,6 +100,7 @@ body{
     border-radius: .6rem;
     margin-bottom: 8rem;
     width: 40rem;
+    
 }
 .achievements-content .content .year{
     font-size: 1.5rem;
@@ -110,8 +118,8 @@ body{
 }
 .dotted-line {
     border-left: 3px dotted #000; 
-    height: 150vh; 
-    margin: 0 20px; 
+            height: 180vh; 
+            margin: 0 20px; /
 }
 @keyframes floatImage{
     0%{
@@ -131,6 +139,16 @@ body{
     }
     100%{
         transform: translateY(0);
+        opacity:1;
+    }
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
         opacity:1;
     }
 }
@@ -158,13 +176,13 @@ body{
 {
     .home {
         flex-direction: column;
-        height: 110vh;
+        height: 130vh;
         margin-bottom: 5rem;
     }
     
     .home-content,
     .home-img {
-        text-align: center; /* Center the content */
+        text-align: center; 
     }
     
     .home-img img {
@@ -203,7 +221,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
-        margin-right: 2rem;
+        margin-right: 5rem;
     }
     .achievements-content .content{
         position: relative;
