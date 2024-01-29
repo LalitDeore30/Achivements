@@ -241,7 +241,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
-        margin-right: 5rem;
+        margin-right: 0rem;
     }
     .achievements-content .content{
         position: relative;
