@@ -230,11 +230,18 @@ body{
                 height: 0; 
                 margin: none; 
     }
+    .achievements_section {
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        flex-direction: column;
+        min-height: auto;
+    }
     .achievements .achievements-row{
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
-        margin-right: 1rem;
+        margin-right: 5rem;
     }
     .achievements-content .content{
         position: relative;
@@ -245,12 +252,15 @@ body{
         margin-left: 1.5rem;
         justify-content: center;
         align-items: center;
-        width: 22rem;
+        width: 23rem;
     }
     .achievements-content .content .image-and-heading {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .achievements-content .content .image-and-heading img{
+        margin-left: 35px;
     }
     .achivements-right{
         margin-top: 0rem;
